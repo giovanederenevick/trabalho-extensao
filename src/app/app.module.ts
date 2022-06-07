@@ -12,6 +12,7 @@ import { OrcamentosComponent } from './orcamentos/orcamentos.component';
 import { FormsModule } from '@angular/forms';
 import { ListaClientesComponent } from './lista-clientes/lista-clientes.component';
 import { ItemClienteComponent } from './item-cliente/item-cliente.component';
+import { EditClienteComponent } from './edit-cliente/edit-cliente.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ItemClienteComponent } from './item-cliente/item-cliente.component';
     ClientesComponent,
     OrcamentosComponent,
     ListaClientesComponent,
-    ItemClienteComponent
+    ItemClienteComponent,
+    EditClienteComponent
   ],
   imports: [
     BrowserModule,

@@ -11,11 +11,4 @@ export class ClientesComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  onSubmit(submittedForm: any) {
-    if (submittedForm.invalid) {
-      return
-    }
-    console.log(submittedForm.value)
-  }
 }
