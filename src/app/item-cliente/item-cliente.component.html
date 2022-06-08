@@ -4,7 +4,7 @@
       <p class="mb-1">{{ cliente.nome }}</p>
     </div>
     <div class="d-flex justify-content-end">
-      <button class="btn btn-secondary" (click)="onEdit()" style="margin-right: 1rem;">Editar</button>
+      <button class="btn btn-secondary" (click)="onEdit()" style="margin-right: 1rem;" routerLink="/cliente-detalhe" routerLinkActive="active">Editar</button>
       <button class="btn btn-primary" (click)="onCreateOrcamento()">+ Orçamento</button>
     </div>
   </a>

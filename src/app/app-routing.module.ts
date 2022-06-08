@@ -1,3 +1,4 @@
+import { EditClienteComponent } from './edit-cliente/edit-cliente.component';
 import { OrcamentosComponent } from './orcamentos/orcamentos.component';
 import { ClientesComponent } from './clientes/clientes.component';
 import { HomeComponent } from './home/home.component';
@@ -16,6 +17,10 @@ const routes : Routes = [
   {
     path: 'orcamentos',
     component: OrcamentosComponent
+  },
+  {
+    path: 'cliente-detalhe',
+    component: EditClienteComponent
   },
   {
     path: '**',

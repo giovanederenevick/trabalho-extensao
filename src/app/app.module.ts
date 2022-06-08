@@ -13,6 +13,9 @@ import { FormsModule } from '@angular/forms';
 import { ListaClientesComponent } from './lista-clientes/lista-clientes.component';
 import { ItemClienteComponent } from './item-cliente/item-cliente.component';
 import { EditClienteComponent } from './edit-cliente/edit-cliente.component';
+import { ProdutosComponent } from './produtos/produtos.component';
+import { ListaOrcamentosComponent } from './lista-orcamentos/lista-orcamentos.component';
+import { ItemOrcamentosComponent } from './item-orcamentos/item-orcamentos.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { EditClienteComponent } from './edit-cliente/edit-cliente.component';
     OrcamentosComponent,
     ListaClientesComponent,
     ItemClienteComponent,
-    EditClienteComponent
+    EditClienteComponent,
+    ProdutosComponent,
+    ListaOrcamentosComponent,
+    ItemOrcamentosComponent
   ],
   imports: [
     BrowserModule,
