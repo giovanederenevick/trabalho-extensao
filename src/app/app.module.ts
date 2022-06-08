@@ -16,6 +16,8 @@ import { EditClienteComponent } from './edit-cliente/edit-cliente.component';
 import { ProdutosComponent } from './produtos/produtos.component';
 import { ListaOrcamentosComponent } from './lista-orcamentos/lista-orcamentos.component';
 import { ItemOrcamentosComponent } from './item-orcamentos/item-orcamentos.component';
+import { ItemProdutosComponent } from './item-produtos/item-produtos.component';
+import { ListaProdutosComponent } from './lista-produtos/lista-produtos.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ItemOrcamentosComponent } from './item-orcamentos/item-orcamentos.compo
     EditClienteComponent,
     ProdutosComponent,
     ListaOrcamentosComponent,
-    ItemOrcamentosComponent
+    ItemOrcamentosComponent,
+    ItemProdutosComponent,
+    ListaProdutosComponent
   ],
   imports: [
     BrowserModule,

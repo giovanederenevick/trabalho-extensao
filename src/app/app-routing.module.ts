@@ -1,3 +1,4 @@
+import { ProdutosComponent } from './produtos/produtos.component';
 import { EditClienteComponent } from './edit-cliente/edit-cliente.component';
 import { OrcamentosComponent } from './orcamentos/orcamentos.component';
 import { ClientesComponent } from './clientes/clientes.component';
@@ -21,6 +22,10 @@ const routes : Routes = [
   {
     path: 'cliente-detalhe',
     component: EditClienteComponent
+  },
+  {
+    path: 'produtos',
+    component: ProdutosComponent
   },
   {
     path: '**',
