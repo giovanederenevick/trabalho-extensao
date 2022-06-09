@@ -1,3 +1,5 @@
+<button type="button" class="btn btn-primary mb-3 w-100" routerLink="/cliente-detalhe" routerLinkActive="active">Adicionar Novo Produto</button>
+
 <h3>Detalhe do produto</h3>
 <form class="border border-secondary rounded p-3 bg-light mb-3" (ngSubmit)="onSubmit(form)" #form="ngForm">
   <div class="row">
@@ -29,4 +31,3 @@
   </div>
   <button class="btn btn-primary" type="submit" [disabled]="form.invalid">Salvar</button>
 </form>
-
