@@ -14,7 +14,13 @@
       >
     </div>
   </div>
+  <span>Lista de Itens do Pedido</span>
   <app-lista-detalhe-pedido></app-lista-detalhe-pedido>
+  <div class="text-end">
+    <button class="btn btn-secondary mb-3 " type="submit">+ Itens</button>
+    <h4 class="mb-3">Valor Total do Pedido</h4>
+    <h4 class="mb-3">R$ 310,00</h4>
+  </div>
   <button class="btn btn-primary" type="submit" [disabled]="form.invalid" style="margin-right: 1rem;">Salvar Pedido</button>
   <button class="btn btn-success" type="submit">Gerar PDF</button>
 </form>
