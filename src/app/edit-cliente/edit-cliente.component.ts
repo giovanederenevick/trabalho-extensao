@@ -1,3 +1,4 @@
+import { ClienteService } from './../cliente.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EditClienteComponent implements OnInit {
 
-  constructor() { }
+  clienteService: ClienteService
+
+  constructor(clienteService: ClienteService) {
+    this.clienteService = clienteService
+   }
 
   ngOnInit(): void {
   }
@@ -17,5 +22,16 @@ export class EditClienteComponent implements OnInit {
       return
     }
     console.log(submittedForm.value)
+    this.clienteService.createCliente(
+      submittedForm.value.nome,
+      submittedForm.value.endereco,
+      submittedForm.value.numero,
+      submittedForm.value.complemento,
+      submittedForm.value.dddcelular,
+      submittedForm.value.numcelular,
+      submittedForm.value.dddtelefone,
+      submittedForm.value.numtelefone,
+      submittedForm.value.email
+    )
   }
 }

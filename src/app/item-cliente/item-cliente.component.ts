@@ -20,10 +20,8 @@ export class ItemClienteComponent implements OnInit {
   }
 
   onEdit() {
-    console.log('Editar cliente')
   }
 
   onCreateOrcamento() {
-    console.log('Criar orçamento')
   }
 }

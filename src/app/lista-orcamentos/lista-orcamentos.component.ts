@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ListaOrcamentosComponent implements OnInit {
 
   orcamentos: any = [{
+    numero: '001',
     data: '09/06/2022'
   }]
 

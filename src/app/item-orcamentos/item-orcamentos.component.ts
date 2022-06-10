@@ -15,6 +15,5 @@ export class ItemOrcamentosComponent implements OnInit {
   }
 
   onEdit() {
-    console.log('Editar cliente')
   }
 }

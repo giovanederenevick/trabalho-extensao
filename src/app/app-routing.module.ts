@@ -23,11 +23,11 @@ const routes : Routes = [
     component: EditClienteComponent
   },
   {
-    path: 'orcamentos',
+    path: 'pedidos',
     component: OrcamentosComponent
   },
   {
-    path: 'orcamento-detalhe',
+    path: 'pedido-detalhe',
     component: EditOrcamentoComponent
   },
   {
