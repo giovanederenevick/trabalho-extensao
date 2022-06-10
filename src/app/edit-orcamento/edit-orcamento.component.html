@@ -14,21 +14,7 @@
       >
     </div>
   </div>
-  <div class="col-12 col-sm-6 mb-3">
-    <label class="form-label" for="form-label">Preço:</label>
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <div class="input-group-text">R$</div>
-      </div>
-      <input type="number"
-      type="number"
-      id="valor"
-      name="valor"
-      class="form-control"
-      ngModel
-      required
-      #nameCtrl="ngModel">
-    </div>
-  </div>
-  <button class="btn btn-primary" type="submit" [disabled]="form.invalid">Salvar</button>
+  <app-lista-detalhe-pedido></app-lista-detalhe-pedido>
+  <button class="btn btn-primary" type="submit" [disabled]="form.invalid" style="margin-right: 1rem;">Salvar Pedido</button>
+  <button class="btn btn-danger" type="submit">Gerar PDF</button>
 </form>
