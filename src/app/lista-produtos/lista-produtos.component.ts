@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaProdutosComponent implements OnInit {
 
+  produtos: any = [{
+    descricao: 'Vidro temperado metro',
+    valor: 20
+  }]
+
   constructor() { }
 
   ngOnInit(): void {

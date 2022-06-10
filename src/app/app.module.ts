@@ -18,6 +18,8 @@ import { ListaOrcamentosComponent } from './lista-orcamentos/lista-orcamentos.co
 import { ItemOrcamentosComponent } from './item-orcamentos/item-orcamentos.component';
 import { ItemProdutosComponent } from './item-produtos/item-produtos.component';
 import { ListaProdutosComponent } from './lista-produtos/lista-produtos.component';
+import { EditProdutoComponent } from './edit-produto/edit-produto.component';
+import { EditOrcamentoComponent } from './edit-orcamento/edit-orcamento.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { ListaProdutosComponent } from './lista-produtos/lista-produtos.componen
     ListaOrcamentosComponent,
     ItemOrcamentosComponent,
     ItemProdutosComponent,
-    ListaProdutosComponent
+    ListaProdutosComponent,
+    EditProdutoComponent,
+    EditOrcamentoComponent
   ],
   imports: [
     BrowserModule,

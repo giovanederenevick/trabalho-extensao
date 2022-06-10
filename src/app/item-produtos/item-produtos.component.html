@@ -1,1 +1,13 @@
-<p>item-produtos works!</p>
+<div>
+  <a style="cursor: pointer" class="list-group-item list-group-item-action" aria-current="true">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">{{ produto.descricao }}</h5>
+    </div>
+    <div class="d-flex w-100 justify-content-between">
+      <p class="mb-1">R$ {{ produto.valor }}</p>
+      <div class="d-flex justify-content-end">
+        <button class="btn btn-secondary" (click)="onEdit()" routerLink="/produto-detalhe" routerLinkActive="active">Editar</button>
+      </div>
+    </div>
+  </a>
+</div>

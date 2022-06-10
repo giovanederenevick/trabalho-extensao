@@ -1,0 +1,4 @@
+.nav-pills .nav-link.active {
+  font-weight: bolder;
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;;
+}

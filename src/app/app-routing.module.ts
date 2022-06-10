@@ -1,3 +1,6 @@
+import { EditOrcamentoComponent } from './edit-orcamento/edit-orcamento.component';
+import { EditProdutoComponent } from './edit-produto/edit-produto.component';
+import { ItemProdutosComponent } from './item-produtos/item-produtos.component';
 import { ProdutosComponent } from './produtos/produtos.component';
 import { EditClienteComponent } from './edit-cliente/edit-cliente.component';
 import { OrcamentosComponent } from './orcamentos/orcamentos.component';
@@ -16,16 +19,24 @@ const routes : Routes = [
     component: ClientesComponent
   },
   {
-    path: 'orcamentos',
-    component: OrcamentosComponent
-  },
-  {
     path: 'cliente-detalhe',
     component: EditClienteComponent
   },
   {
+    path: 'orcamentos',
+    component: OrcamentosComponent
+  },
+  {
+    path: 'orcamento-detalhe',
+    component: EditOrcamentoComponent
+  },
+  {
     path: 'produtos',
     component: ProdutosComponent
+  },
+  {
+    path: 'produto-detalhe',
+    component: EditProdutoComponent
   },
   {
     path: '**',

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-item-orcamentos',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemOrcamentosComponent implements OnInit {
 
+  @Input() orcamento: any
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onEdit() {
+    console.log('Editar cliente')
+  }
 }

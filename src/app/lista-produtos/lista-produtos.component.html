@@ -1,1 +1,5 @@
-<p>lista-produtos works!</p>
+<div class="list-group">
+  <app-item-produtos
+  *ngFor="let produto of produtos"
+  [produto]="produto"></app-item-produtos>
+</div>
